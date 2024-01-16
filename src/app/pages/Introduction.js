@@ -23,16 +23,16 @@ export const Introduction = () => {
             Front-end developer
           </p>
           <div className="flex mt-5 text-zinc-50 flex-row font-light text-1xl gap-5">
-            <a href="">
+            <a href="mailto:totolo.richard@gmail.com">
               <TbMail size={30} className="hover:text-[#9B77FF]" />
             </a>
-            <a href="">
+            <a href="https://github.com/souzatotolo">
               <FiGithub size={30} className="hover:text-[#9B77FF]" />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/richardtotolo/">
               <FaLinkedinIn size={30} className="hover:text-[#9B77FF]" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/richard.totolo/">
               <FiInstagram size={30} className="hover:text-[#9B77FF]" />
             </a>
           </div>
