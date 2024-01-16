@@ -114,7 +114,9 @@
  
   
 }
-  
+ .bloob{
+  border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%; 
+ } 
 .blob {
   z-index: -1;
   border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%; 

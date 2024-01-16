@@ -114,9 +114,10 @@ export const Projects = () => {
           </p>
           <div className="w-5 border-b-2 border-[#9B77FF]" />
           <p className="text-zinc-50">
-            ERP system projectequipped with robust authentication to keep things
-            secure, a sleek dashboard for a quick overview, and multiple tables
-            for detailed financial tracking and customer management.
+            ERP system project was a demo project equipped with robust
+            authentication to keep things secure, a sleek dashboard for a quick
+            overview, and multiple tables for detailed financial tracking and
+            customer management.
           </p>
           <p className="font-bold font-normal text-[#9B77FF]">
             React | NodeJS | TailwindCSS | MongoDB
