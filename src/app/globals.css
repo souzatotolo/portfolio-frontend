@@ -1,6 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cards {
+  position: relative; 
+  margin: 50px auto;  
+  height: 75px; 
+  width: 50px; 
+  font-size: 30px; 
+  line-height: 38px; 
+  font-weight: bold; 
+}
+  .card {
+    position: absolute; 
+    width: 355px;
+    height: 421px; 
+    border-radius: 7px; 
+    padding-left: 5px;
+    box-shadow: -2px 2px 3px rgba(78, 27, 141, 0.3); 
+    animation-duration: 2s;
+  } 
+  @keyframes anim-one {
+
+    from { transform: translate(0) rotate(0deg);}
+    50% {transform: translate(-30px, 5px) rotate(-45deg);}
+    to { transform: translate(0) rotate(0deg);}}
+  
+   @keyframes anim-two {
+    from { transform: translate(0) rotate(0deg);}
+    50% {transform: translate(-15px) rotate(-25deg);}
+    to { transform: translate(0) rotate(0deg);}}
+ 
+    
+  @keyframes anim-three {
+    from { transform: translate(0) rotate(0deg);}
+    50% {transform: rotate(-5deg);}
+    to { transform: translate(0) rotate(0deg);}
+    }
+.one{
+  background-color: #9B77FF;
+  opacity: 20%;
+}
+.two{
+  background-color: #181885;
+  opacity: 34%;
+}
+.three{
+  background-color: #9B77FF;
+  opacity:1
+
+}
+
+    .cards:hover .one,
+.cards:focus-within .one {
+  animation: anim-one 2s  ;
+}
+
+.cards:hover .two,
+.cards:focus-within .two {
+  animation: anim-two 2s ;
+}
+
+.cards:hover .three,
+.cards:focus-within .three {
+  animation: anim-three 2s ;
+ 
+  
+}
+  
 .blob {
   z-index: -1;
   border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%; 

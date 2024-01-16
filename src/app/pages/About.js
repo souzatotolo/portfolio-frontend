@@ -6,8 +6,13 @@ export const About = () => {
     <div className="bg-white">
       <div className="shapedividers_com-7495 h-48 mt-20" />
       <div className="h-[70vh] bg-white flex items-center  mt-10 justify-center">
-        <div className="h-[517px] max-w-[1400px] px-20 flex flex-row gap-5 items-start justify-center">
-          <div className="bg-black w-[469px] h-[469px]"></div>
+        <div className="h-[517px] max-w-[1400px] px-20 flex flex-row gap-80 items-start justify-center">
+          <div className="cards">
+            <div className="one card "></div>
+            <div className="two card  "></div>
+            <div className="three card "></div>
+          </div>
+
           <div className="h-full w-full px-20 display gap-6 flex flex-col text-black">
             <h1 className="font-bold text-[40px] text-[#181885]">About me</h1>
             <p className="text-[#3B3B3B]">
