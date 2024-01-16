@@ -6,14 +6,14 @@ import { TbMail } from 'react-icons/tb';
 
 export const Projects = () => {
   return (
-    <div className="h-full flex items-center justify-start flex-col gap-20">
+    <div className="h-full px-5 flex items-center justify-start flex-col gap-60 md:gap-20">
       <h1 className="font-bold text-[40px] text-[#9B77FF] mt-20">
         My Projects
       </h1>
 
-      <div className="w-[1170px] h-[337px] flex flex-row gap-5">
-        <img src="/vanhike.png" className="w-[670px] h-[337px]" alt="" />
-        <div className="flex w-[470px] h-[232px] flex-col gap-3">
+      <div className="md:w-[1170px] w-full h-[337px] flex md:flex-row flex-col gap-5">
+        <img src="/vanhike.png" className="md:w-[670px] h-[337px]" alt="" />
+        <div className="flex md:w-[470px] h-[232px] flex-col gap-3">
           <p className="font-bold text-[30px] text-[#9B77FF]">VanHike</p>
           <p className="font-bold font-normal text-[#9B77FF]">
             2023 - Frontend & Backend
@@ -49,8 +49,13 @@ export const Projects = () => {
         </div>
       </div>
 
-      <div className="w-[1170px] h-[337px] flex flex-row gap-5">
-        <div className="flex w-[470px] h-[232px] flex-col gap-3">
+      <div className="md:w-[1170px] h-[337px] flex flex-col md:flex-row gap-6">
+        <img
+          src="/magnolia.png"
+          className=" md:hidden md:w-[670px] w-screen h-[337px]"
+          alt=""
+        />
+        <div className="flex md:w-[470px] h-[232px] flex-col gap-3">
           <p className="font-bold text-[30px] text-[#9B77FF]">
             Magnolia Janitorial Services
           </p>
@@ -87,12 +92,20 @@ export const Projects = () => {
             </a>
           </div>
         </div>
-        <img src="/magnolia.png" className="w-[670px] h-[337px]" alt="" />
+        <img
+          src="/magnolia.png"
+          className=" hidden md:block md:w-[670px] w-screen h-[337px]"
+          alt=""
+        />
       </div>
 
-      <div className="w-[1170px] h-[337px] flex flex-row gap-5">
-        <img src="/erp_saas.png" className="w-[670px] h-[337px]" alt="" />
-        <div className="flex w-[470px] h-[232px] flex-col gap-3">
+      <div className="md:w-[1170px] w-full h-[337px] flex md:flex-row flex-col gap-5">
+        <img
+          src="/somnium.png"
+          className="md:w-[670px] w-screen h-[337px]"
+          alt=""
+        />
+        <div className="flex md:w-[470px] h-[232px] flex-col gap-3">
           <p className="font-bold text-[30px] text-[#9B77FF]">
             SOMNIUM - ERP system{' '}
           </p>
@@ -128,15 +141,15 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      <p className="font-bold text-[40px] text-[#9B77FF]">Get in touch</p>
-      <p className="text-white w-[570px] text-center">
+      <p className=" font-bold text-[40px] text-[#9B77FF]">Get in touch</p>
+      <p className="text-white md:w-[570px] text-center">
         Thank you for taking the time to visit my portfolio! If you have any
         questions, feedback, or project inquiries, please feel free to reach out
         to me. I am always excited to connect with new people and discuss how I
         can help bring their vision to life. Looking forward to hearing from you
         soon!
       </p>
-      <div className="flex mt-5 text-zinc-50 flex-row font-light text-1xl gap-5">
+      <div className="flex md:mt-5 text-zinc-50 flex-row font-light text-1xl gap-5">
         <a href="mailto:totolo.richard@gmail.com">
           <TbMail size={30} className="hover:text-[#9B77FF]" />
         </a>

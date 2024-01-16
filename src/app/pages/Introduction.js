@@ -6,7 +6,7 @@ import { FiGithub, FiInstagram } from 'react-icons/fi';
 
 export const Introduction = () => {
   return (
-    <div className="flex flex-col items-center justify-around overflow-hidden ">
+    <div className="flex flex-col items-center md:justify-around justify-center overflow-hidden ">
       <div className="bg-[#0A2144] flex mb-26 z-10  overflow-hidden flex-col justify-center items-center py-8 ">
         <Image
           src="/Blob.svg"
@@ -14,12 +14,24 @@ export const Introduction = () => {
           width={1400}
           height={1200}
           objectFit="cover"
-          className="blur blob absolute ml-28 z-[1]"
+          className="blur hidden md:block blob absolute ml-28 z-[1]"
+        />
+        <Image
+          src="/Blob.svg"
+          alt="Blob Image"
+          width={500}
+          height={200}
+          objectFit="cover"
+          className="blur md:hidden absolute z-[1]"
         />
         <div className="flex items-center mt-40 justify-center z-[5] flex-col">
-          <p className="text-4xl font-extralight text-zinc-50 ">Hello I'm</p>
-          <p className="text-[84px] text-[#9B77FF] font-bold">Richard Totolo</p>
-          <p className="text-4xl font-extralight text-zinc-50 ">
+          <p className="text-3xl md:text-4xl font-extralight text-zinc-50 ">
+            Hello I'm
+          </p>
+          <p className=" md:text-[84px] text-5xl text-[#9B77FF] font-bold">
+            Richard Totolo
+          </p>
+          <p className="text-3xl md:text-4xl font-extralight text-zinc-50 ">
             Front-end developer
           </p>
           <div className="flex mt-5 text-zinc-50 flex-row font-light text-1xl gap-5">

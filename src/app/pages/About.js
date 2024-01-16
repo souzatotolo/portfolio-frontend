@@ -3,19 +3,19 @@ import { GoTriangleRight } from 'react-icons/go';
 
 export const About = () => {
   return (
-    <div className="bg-white">
-      <div className="shapedividers_com-7495 h-48 mt-20" />
-      <div className="h-[70vh] bg-white flex items-center  mt-10 justify-center">
-        <div className="h-[517px] max-w-[1400px] px-20 flex flex-row gap-80 items-start justify-center">
-          <div className="cards">
+    <div className="bg-white md:block">
+      <div className="shapedividers_com-7495 h-48 mt-20 " />
+      <div className="md:h-[70vh] bg-white flex items-center  justify-center">
+        <div className="h-[517px] max-w-[1400px] md:px-20 px-10 flex flex-col md:flex-row gap-80 items-start justify-center">
+          <div className="cards hidden md:block">
             <div className="one card "></div>
             <div className="two card  "></div>
             <div className="three card "></div>
           </div>
 
-          <div className="h-full w-full px-20 display gap-6 flex flex-col text-black">
+          <div className="h-full w-full md:px-20 gap-6 flex flex-col text-black">
             <h1 className="font-bold text-[40px] text-[#181885]">About me</h1>
-            <p className="text-[#3B3B3B]">
+            <p className="text-[#3B3B3B] hidden md:block">
               My name is Richard and I have a passion for technology and
               problem-solving. I believe that the frontend is where the magic
               happens, and I take pride in creating responsive and user-friendly
@@ -26,9 +26,16 @@ export const About = () => {
               technical abilities. Thank you for visiting, and please feel free
               to reach out to me with any questions or project inquiries.
             </p>
+            <p className="md:hidden">
+              My name is Richard and I have a passion for technology and
+              problem-solving. I take pride in creating responsive and
+              user-friendly websites and applications. With years of experience
+              in both backend and frontend development I have honed my skills to
+              create beautiful and functional designs.
+            </p>
             <p className="font-bold text-[30px] text-[#181885]">Skills</p>
             <div className="grid grid-cols-2 gap-4 auto-rows-fr">
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center ">
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>Javascript</p>
               </div>
@@ -52,7 +59,7 @@ export const About = () => {
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>SQL | MongoDB</p>
               </div>
-              <button className="col-span-2 w-44 h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#583e9e] border-2 border-[#9B77FF]">
+              <button className=" mt-1 md:w-44 w-[250px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#583e9e] border-2 border-[#9B77FF]">
                 Download Resume
               </button>
             </div>
