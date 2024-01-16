@@ -6,28 +6,30 @@ import { TbMail } from 'react-icons/tb';
 
 export const Projects = () => {
   return (
-    <div className="h-full w-full m-10 flex items-center justify-start flex-col gap-20">
-      <h1 className="font-bold text-[40px] text-[#9B77FF]">My Projects</h1>
+    <div className="h-full flex items-center justify-start flex-col gap-20">
+      <h1 className="font-bold text-[40px] text-[#9B77FF] mt-20">
+        My Projects
+      </h1>
 
       <div className="w-[1170px] h-[337px] flex flex-row gap-5">
-        <img src="" className="w-[670px] h-[337px]" alt="" />
+        <img src="/vanhike.png" className="w-[670px] h-[337px]" alt="" />
         <div className="flex w-[470px] h-[232px] flex-col gap-3">
           <p className="font-bold text-[30px] text-[#9B77FF]">VanHike</p>
           <p className="font-bold font-normal text-[#9B77FF]">
             2023 - Frontend & Backend
           </p>
-          <div className="w-5 border-b-2 border-black" />
+          <div className="w-5 border-b-2 border-[#9B77FF]" />
           <p className="text-zinc-50">
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track. Create and save new playlists of
-            recommended tracks based on your existing playlists and more.
+            VanHike, a single-page application, was developed as part of a
+            Computer Science Information Systems (CSIS) course. The website
+            caters to hiking enthusiasts, providing them with a user-friendly
+            platform to explore and search for their favorite trails.
           </p>
           <p className="font-bold font-normal text-[#9B77FF]">
-            React | NodeJS | Redux | MongoDB
+            React | NodeJS | Express | MongoDB
           </p>
           <div className="flex flex-row gap-3">
-            <a href="">
+            <a href="https://github.com/souzatotolo/VanHike">
               {' '}
               <FiGithub
                 size={30}
@@ -35,7 +37,7 @@ export const Projects = () => {
                 className="hover:text-[#9B77FF]"
               />
             </a>
-            <a href="">
+            <a href="https://project-group5.vercel.app/">
               {' '}
               <HiOutlineExternalLink
                 size={30}
@@ -49,22 +51,25 @@ export const Projects = () => {
 
       <div className="w-[1170px] h-[337px] flex flex-row gap-5">
         <div className="flex w-[470px] h-[232px] flex-col gap-3">
-          <p className="font-bold text-[30px] text-[#9B77FF]">VanHike</p>
-          <p className="font-bold font-normal text-[#9B77FF]">
-            2023 - Frontend & Backend
+          <p className="font-bold text-[30px] text-[#9B77FF]">
+            Magnolia Janitorial Services
           </p>
-          <div className="w-5 border-b-2 border-black" />
+          <p className="font-bold font-normal text-[#9B77FF]">
+            2024 - Frontend
+          </p>
+          <div className="w-5 border-b-2 border-[#9B77FF]" />
           <p className="text-zinc-50">
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track. Create and save new playlists of
-            recommended tracks based on your existing playlists and more.
+            Magnolia Janitorial Services was a professional project for a
+            cleaning company.The website showcases services, pricing, and forms
+            for clients to request quotes. It's integrated with WhatsApp for
+            easy communication but it has a company email integration with the
+            forms.
           </p>
           <p className="font-bold font-normal text-[#9B77FF]">
-            React | NodeJS | Redux | MongoDB
+            React | NextJs | TailwindCSS
           </p>
           <div className="flex flex-row gap-3">
-            <a href="">
+            <a href="https://github.com/souzatotolo/magnoliajan-frontend">
               {' '}
               <FiGithub
                 size={30}
@@ -72,7 +77,7 @@ export const Projects = () => {
                 className="hover:text-[#9B77FF]"
               />
             </a>
-            <a href="">
+            <a href="https://www.magnoliajanitorialservices.com/">
               {' '}
               <HiOutlineExternalLink
                 size={30}
@@ -82,28 +87,29 @@ export const Projects = () => {
             </a>
           </div>
         </div>
-        <img src="" className="w-[670px] h-[337px]" alt="" />
+        <img src="/magnolia.png" className="w-[670px] h-[337px]" alt="" />
       </div>
 
       <div className="w-[1170px] h-[337px] flex flex-row gap-5">
-        <img src="" className="w-[670px] h-[337px]" alt="" />
+        <img src="/erp_saas.png" className="w-[670px] h-[337px]" alt="" />
         <div className="flex w-[470px] h-[232px] flex-col gap-3">
-          <p className="font-bold text-[30px] text-[#9B77FF]">VanHike</p>
+          <p className="font-bold text-[30px] text-[#9B77FF]">
+            SOMNIUM - ERP system{' '}
+          </p>
           <p className="font-bold font-normal text-[#9B77FF]">
             2023 - Frontend & Backend
           </p>
-          <div className="w-5 border-b-2 border-black" />
+          <div className="w-5 border-b-2 border-[#9B77FF]" />
           <p className="text-zinc-50">
-            A web app for visualizing personalized Spotify data. View your top
-            artists, top tracks, recently played tracks, and detailed audio
-            information about each track. Create and save new playlists of
-            recommended tracks based on your existing playlists and more.
+            ERP system projectequipped with robust authentication to keep things
+            secure, a sleek dashboard for a quick overview, and multiple tables
+            for detailed financial tracking and customer management.
           </p>
           <p className="font-bold font-normal text-[#9B77FF]">
-            React | NodeJS | Redux | MongoDB
+            React | NodeJS | TailwindCSS | MongoDB
           </p>
           <div className="flex flex-row gap-3">
-            <a href="">
+            <a href="https://github.com/souzatotolo/gestech_landing_react">
               {' '}
               <FiGithub
                 size={30}
@@ -111,7 +117,7 @@ export const Projects = () => {
                 className="hover:text-[#9B77FF]"
               />
             </a>
-            <a href="">
+            <a href="https://somnium-app.vercel.app/">
               {' '}
               <HiOutlineExternalLink
                 size={30}
