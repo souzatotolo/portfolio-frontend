@@ -1,10 +1,11 @@
 import React from 'react';
+import { GoTriangleRight } from 'react-icons/go';
 
 export const About = () => {
   return (
     <div className="bg-white">
       <div className="shapedividers_com-7495 h-48 mt-20" />
-      <div className="h-full bg-white flex items-center  mt-10 justify-center">
+      <div className="h-[70vh] bg-white flex items-center  mt-10 justify-center">
         <div className="h-[517px] max-w-[1400px] px-20 flex flex-row gap-5 items-start justify-center">
           <div className="bg-black w-[469px] h-[469px]"></div>
           <div className="h-full w-full px-20 display gap-6 flex flex-col text-black">
@@ -22,20 +23,38 @@ export const About = () => {
             </p>
             <p className="font-bold text-[30px] text-[#181885]">Skills</p>
             <div className="grid grid-cols-2 gap-4 auto-rows-fr">
-              <p>Javascript</p>
-              <p>React</p>
-              <p>NextJs</p>
-              <p>MongoDB</p>
-              <p>TailwindCSS</p>
-              <p>Express</p>
-              <button className="col-span-2 w-44 h-8 text-xs rounded-full text-[#9B77FF] hover:bg-[#583e9e] border-2 border-[#9B77FF]">
+              <div className="flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>Javascript</p>
+              </div>
+              <div className="flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>React</p>
+              </div>
+              <div className="flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>NextJS</p>
+              </div>
+              <div className="flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>NodeJs</p>
+              </div>
+              <div className="flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>Express</p>
+              </div>
+              <div className="flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>SQL | MongoDB</p>
+              </div>
+              <button className="col-span-2 w-44 h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#583e9e] border-2 border-[#9B77FF]">
                 Download Resume
               </button>
             </div>
           </div>
         </div>
       </div>
-      <h1>teste</h1>
+      <div className="shapedividers_com-9814 h-44" />
     </div>
   );
 };
