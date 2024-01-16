@@ -6,7 +6,7 @@ export const About = () => {
     <div className="bg-white md:block">
       <div className="shapedividers_com-7495 h-48 mt-20 " />
       <div className="md:h-[70vh] bg-white flex items-center  justify-center">
-        <div className="h-[517px] max-w-[1400px] md:px-20 px-10 flex flex-col md:flex-row gap-80 items-start justify-center">
+        <div className="h-[517px] mb-20 md:mb-0 max-w-[1400px] md:px-20 px-10 flex flex-col md:flex-row gap-80 items-start justify-center">
           <div className="cards hidden md:block">
             <div className="one card "></div>
             <div className="two card  "></div>
