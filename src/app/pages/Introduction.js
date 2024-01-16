@@ -29,7 +29,7 @@ export const Introduction = () => {
           animate={{
             scale: [0.4, 1, 1.1, 0.8, 0.4],
             rotate: [0, 0, 180, 180, 0],
-            borderRadius: ['0%', '40%', '22%', '50%', '0%'],
+            borderRadius: ['12%', '40%', '22%', '50%', '7%'],
           }}
           transition={{
             duration: 5,
