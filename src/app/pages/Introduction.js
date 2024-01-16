@@ -50,7 +50,7 @@ export const Introduction = () => {
           </div>
         </div>
       </div>
-      <a className="text-zinc-50 mt-20  z-20 flex" href="">
+      <a className="text-zinc-50 mt-20 pulsate-bck z-20 flex" href="">
         <FaAngleDown size={30} />
       </a>
     </div>
