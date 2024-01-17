@@ -13,7 +13,7 @@ export const About = () => {
             <div className="three card "></div>
           </div>
 
-          <div className="h-full w-full md:px-20 gap-6 flex flex-col text-black">
+          <div className="h-full w-full md:px-20 gap-6 flex flex-col items-center md:items-start text-black">
             <h1 className="font-bold text-[40px] text-[#181885]">About me</h1>
             <p className="text-[#3B3B3B] hidden md:block">
               My name is Richard and I have a passion for technology and
@@ -59,10 +59,13 @@ export const About = () => {
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>SQL | MongoDB</p>
               </div>
-              <button className=" mt-1 md:w-44 w-[250px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#583e9e] border-2 border-[#9B77FF]">
+              <button className=" hidden md:block md:mt-1 md:ml-0 ml-5 md:w-44 w-[280px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
                 Download Resume
               </button>
             </div>
+            <button className=" md:hidden w-[280px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
+              Download Resume
+            </button>
           </div>
         </div>
       </div>

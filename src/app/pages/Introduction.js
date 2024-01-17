@@ -81,9 +81,14 @@ export const Introduction = () => {
           </div>
         </div>
       </div>
-      <a className="text-zinc-50 mt-20 pulsate-bck z-20 flex" href="">
+      <motion.a
+        className="text-zinc-50 mt-20  z-20 flex"
+        href=""
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.8 }}
+      >
         <FaAngleDown size={30} />
-      </a>
+      </motion.a>
     </div>
   );
 };
