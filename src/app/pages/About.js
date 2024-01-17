@@ -63,7 +63,7 @@ export const About = () => {
                 Download Resume
               </button>
             </div>
-            <button className=" md:hidden w-[280px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
+            <button className=" md:hidden mt-2 w-[200px] h-8 text-md rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
               Download Resume
             </button>
           </div>
