@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
+import { FaHamburger } from 'react-icons/fa';
 
 const Path = (props) => (
   <motion.path
@@ -18,6 +19,7 @@ export const MenuToggle = ({ toggle }) => (
       width="23"
       height="23"
       viewBox="0 0 23 23"
+      style={{ fill: '#fff' }}
     >
       <Path
         variants={{
@@ -31,7 +33,7 @@ export const MenuToggle = ({ toggle }) => (
           closed: { opacity: 1 },
           open: { opacity: 0 },
         }}
-        transition={{ duration: 0.1 }}
+        transition={{ duration: 0.5 }}
       />
       <Path
         variants={{

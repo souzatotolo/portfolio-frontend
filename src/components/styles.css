@@ -13,8 +13,8 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 80vw;
-  background: #9B77FF;
+  width: 100vw;
+  background: #0A2144;
 }
 
 .button-hamb {
@@ -26,8 +26,9 @@
   cursor: pointer;
   position: absolute;
   top: 30px;
-  left: 28px;
+  left: 20px;
   border-radius: 50%;
+  filter:invert();
   background: transparent;
 }
 
@@ -65,6 +66,10 @@ li {
   width: 200px;
   height: 20px;
   flex: 1;
+}
+
+.hamburger{
+  fill: #fff;
 }
 
 .refresh {

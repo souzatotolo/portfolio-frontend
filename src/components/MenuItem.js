@@ -22,7 +22,7 @@ const colors = ['#7701F1', '#9C1AFF', '#7700FF'];
 const menuName = ['Contact', 'About', 'Projects'];
 
 export const MenuItem = ({ i }) => {
-  const style = { border: `2px solid ${colors[i]}` };
+  const style = {};
 
   return (
     <motion.li
@@ -32,7 +32,7 @@ export const MenuItem = ({ i }) => {
     >
       <div className="icon-placeholder" />
       <div
-        className="text-placeholder text-zinc-50 flex items-center justify-center p-4"
+        className="text-placeholder text-2xl font-bold text-zinc-50  "
         style={style}
       >
         {menuName[i]}

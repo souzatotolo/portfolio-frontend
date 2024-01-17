@@ -145,8 +145,10 @@ export const Projects = () => {
           <div className="md:hidden w-50% m-4 border-b-[1px] border-[#9B77FF]" />
         </div>
       </div>
-      <div className="md:mt-0 mt-20 flex gap-5 flex-col items-center justify-center">
-        <p className=" font-bold text-[40px] text-[#9B77FF]">Get in touch</p>
+      <div className="md:mt-0 mt-40 flex gap-5 flex-col items-center justify-center">
+        <p className=" font-bold mt-4 text-[40px] text-[#9B77FF]">
+          Get in touch
+        </p>
         <p className="text-white md:w-[570px] text-center">
           Thank you for taking the time to visit my portfolio! If you have any
           questions, feedback, or project inquiries, please feel free to reach
