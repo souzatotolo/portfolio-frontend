@@ -1,11 +1,17 @@
+'use strict';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 export const Header = () => {
   return (
     <div className="flex items-start justify-end md:justify-between md:mx-24 md:my-2 h-8">
-      <h1 className="text-[#9b77ff] text-xl mr-8 md:text-2xl font-bold">
+      <motion.h1
+        whileHover={{ opacity: 0.8 }}
+        whileTap={{ scale: 0.8 }}
+        className="text-[#9b77ff] text-xl mr-8 md:text-2xl font-bold"
+      >
         Richard Totolo
-      </h1>
+      </motion.h1>
       <nav className="md:flex gap-10 hidden px-10 items-center flex-wrap">
         <a className="text-zinc-50  z-30" href="">
           About

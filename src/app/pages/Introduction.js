@@ -59,9 +59,13 @@ export const Introduction = () => {
           <p className="text-3xl md:text-4xl font-extralight text-zinc-50 ">
             Hello I'm
           </p>
-          <p className=" md:text-[84px] text-5xl text-[#9B77FF] font-bold">
+          <motion.p
+            whileHover={{ color: '#fff' }}
+            transition={{ type: 'spring', stiffness: 100, delay: 0.1 }}
+            className=" md:text-[84px] text-5xl text-[#9B77FF] font-bold"
+          >
             Richard Totolo
-          </p>
+          </motion.p>
           <p className="text-3xl md:text-4xl font-extralight text-zinc-50 ">
             Front-end developer
           </p>
