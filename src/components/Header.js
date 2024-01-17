@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Header = () => {
   return (
-    <div className="flex items-start justify-end md:mx-24 md:my-2 h-8">
+    <div className="flex items-start justify-end md:justify-between md:mx-24 md:my-2 h-8">
       <h1 className="text-[#9b77ff] text-xl mr-8 md:text-2xl font-bold">
         Richard Totolo
       </h1>
