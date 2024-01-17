@@ -2,8 +2,10 @@ import React from 'react';
 
 export const Header = () => {
   return (
-    <div className="flex justify-between mx-24 my-2 h-8">
-      <h1 className="text-[#9b77ff] text-2xl font-bold">Richard Totolo</h1>
+    <div className="flex items-start justify-end md:mx-24 md:my-2 h-8">
+      <h1 className="text-[#9b77ff] text-xl mr-8 md:text-2xl font-bold">
+        Richard Totolo
+      </h1>
       <nav className="md:flex gap-10 hidden px-10 items-center flex-wrap">
         <a className="text-zinc-50  z-30" href="">
           About
