@@ -5,15 +5,20 @@ import { About } from './pages/About';
 import { Projects } from './pages/Projects';
 import { Motion } from './pages/Motion';
 import { Example } from '@/components/Example';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { mainRoute } from '@/routes/mainRoute';
 
 export default function Home() {
   return (
     <main className="h-screen w-full my-10 ">
-      <Example />
-      <Header />
-      <Introduction />
-      <About />
-      <Projects />
+      <Router>
+        <mainRoute />
+        <Example />
+        <Header />
+        <Introduction />
+        <About />
+        <Projects />
+      </Router>
     </main>
   );
 }

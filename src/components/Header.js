@@ -1,6 +1,8 @@
 'use strict';
 import React from 'react';
 import { motion } from 'framer-motion';
+import { HashLink as Link } from 'react-router-hash-link';
+import { Link as nextLink } from 'next/link';
 
 export const Header = () => {
   return (
@@ -13,18 +15,23 @@ export const Header = () => {
         Richard Totolo
       </motion.h1>
       <nav className="md:flex gap-10 hidden px-10 items-center flex-wrap">
-        <a className="text-zinc-50  z-30" href="">
+        <Link to={'/about#about'} className="text-zinc-50  z-30" href="">
           About
-        </a>
-        <a className="text-zinc-50  z-30" href="">
+        </Link>
+        <Link to="/projects#projects" className="text-zinc-50  z-30" href="">
           Projects
-        </a>
-        <a className="text-zinc-50 z-30" href="">
+        </Link>
+        <Link to="/projects#getInTouch" className="text-zinc-50 z-30" href="">
           Contact
-        </a>
-        <button className=" text-[#9B77FF] text-lg  w-32 h-9 border-2  border-[#9B77FF] bg-transparent hover:bg-[#583e9e]  rounded-full">
-          Resume
-        </button>
+        </Link>
+
+        <nextLink href="/resume.pdf">
+          <button className=" text-[#9B77FF] text-lg  w-32 h-9 border-2  border-[#9B77FF] bg-transparent hover:bg-[#583e9e]  rounded-full">
+            <a href="/resume.pdf" target="_blank" download>
+              Resume
+            </a>
+          </button>
+        </nextLink>
       </nav>
     </div>
   );

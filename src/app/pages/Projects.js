@@ -7,7 +7,10 @@ import { TbMail } from 'react-icons/tb';
 
 export const Projects = () => {
   return (
-    <div className="h-full px-5 flex items-center justify-start flex-col md:gap-20">
+    <div
+      id="projects"
+      className="h-full px-5 flex items-center justify-start flex-col md:gap-20"
+    >
       <h1 className="font-bold text-[40px] text-[#9B77FF] mt-20">
         My Projects
       </h1>
@@ -146,7 +149,10 @@ export const Projects = () => {
         </div>
       </div>
       <div className="md:mt-0 mt-40 flex gap-5 flex-col items-center justify-center">
-        <p className=" font-bold mt-4 text-[40px] text-[#9B77FF]">
+        <p
+          id="getInTouch"
+          className=" font-bold mt-4 text-[40px] text-[#9B77FF]"
+        >
           Get in touch
         </p>
         <p className="text-white md:w-[570px] text-center">
