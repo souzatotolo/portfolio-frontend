@@ -7,6 +7,7 @@ import { Motion } from './pages/Motion';
 import { Example } from '@/components/Example';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { mainRoute } from '@/routes/mainRoute';
+import GoToTop from '@/components/goToTheTop';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Introduction />
         <About />
         <Projects />
+        <GoToTop />
       </Router>
     </main>
   );
