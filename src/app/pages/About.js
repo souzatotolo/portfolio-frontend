@@ -63,19 +63,18 @@ export const About = () => {
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>SQL | MongoDB</p>
               </div>
-              <Link href="/resume.pdf">
+              <Link href="/resume.pdf" target="blank">
                 <button className=" hidden md:block md:mt-1 md:ml-0 ml-5 md:w-44 w-[280px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
                   <a href="/resume.pdf" download></a>Download Resume
                 </button>
               </Link>
             </div>
-            <Link href="/resume.pdf">
-              <button className=" md:hidden mt-8 w-48 h-10 text-md rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
-                <a href="/resume.pdf" target="_blank" download>
-                  Download Resume
-                </a>
-              </button>
-            </Link>
+
+            <button className=" md:hidden mt-8 w-48 h-10 text-md rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
+              <a href="/resume.pdf" target="_blank" download>
+                Download Resume
+              </a>
+            </button>
           </div>
         </div>
       </div>
