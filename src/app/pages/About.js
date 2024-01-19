@@ -16,7 +16,7 @@ export const About = () => {
 
           <div
             id="about"
-            className="h-full w-full md:px-20 gap-6 flex flex-col justify-center items-center md:items-start text-black"
+            className=" about h-full w-full md:px-20 gap-6 flex flex-col justify-center items-center md:items-start text-black"
           >
             <h1 className="font-bold text-[40px] text-[#181885]">About me</h1>
             <p className="text-[#3B3B3B] hidden md:block">

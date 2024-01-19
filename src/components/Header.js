@@ -1,6 +1,7 @@
 'use strict';
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export const Header = () => {
   const resumeLink = '/resume.pdf';
@@ -17,15 +18,15 @@ export const Header = () => {
         Richard Totolo
       </motion.h1>
       <nav className="md:flex gap-10 hidden px-10 items-center flex-wrap">
-        <a to="" className="text-zinc-50  z-30" href="">
+        <Link href="#about" className="text-zinc-50  z-30">
           About
-        </a>
-        <a to="" className="text-zinc-50  z-30" href="">
+        </Link>
+        <Link href="#projects" className="text-zinc-50  z-30">
           Projects
-        </a>
-        <a to="" className="text-zinc-50 z-30" href="">
+        </Link>
+        <Link href="#getInTouch" className="text-zinc-50 z-30">
           Contact
-        </a>
+        </Link>
 
         <button
           onClick={openResume}

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'next/link';
 
 const variants = {
   open: {
@@ -21,7 +20,7 @@ const variants = {
 
 const colors = ['#7701F1', '#9C1AFF', '#7700FF'];
 const menuName = ['Contact', 'About', 'Projects'];
-// const hash = ['/Projects', '/About', '/Projects'];
+const hash = ['#getInTouch', '#about', '#projects'];
 
 export const MenuItem = ({ i }) => {
   const style = {};
@@ -34,7 +33,7 @@ export const MenuItem = ({ i }) => {
     >
       <div className="icon-placeholder" />
       <a
-        // to={hash[i]}
+        href={hash[i]}
         className="text-placeholder text-2xl font-bold text-zinc-50  "
         style={style}
       >
