@@ -6,12 +6,18 @@ export const About = () => {
   return (
     <div className="bg-white md:block">
       <div className="shapedividers_com-7495 h-48 mt-20 " />
-      <div className="md:h-[70vh] bg-white flex items-center  justify-center">
-        <div className="h-[517px] mb-20 md:mb-0 max-w-[1400px] md:px-20 px-10 flex flex-col md:flex-row gap-80 items-start justify-center">
+      <div className="md:h-[70vh] bg-white flex items-center h-screen justify-center">
+        <div className="md:h-[517px] md:mb-20 md:mb-0 md:max-w-[1400px] md:px-20 px-10 flex flex-col md:flex-row gap-80 items-start justify-center">
           <div className="cards hidden md:block">
             <div className="one card "></div>
             <div className="two card  "></div>
-            <div className="three card "></div>
+            <div className="three card ">
+              <img
+                src="/richard.jpeg"
+                alt=""
+                className="h-full w-full rounded-md "
+              />
+            </div>
           </div>
 
           <div
@@ -19,6 +25,11 @@ export const About = () => {
             className=" about h-full w-full md:px-20 gap-6 flex flex-col justify-center items-center md:items-start text-black"
           >
             <h1 className="font-bold text-[40px] text-[#181885]">About me</h1>
+            <img
+              src="/richard.jpeg"
+              alt=""
+              className="h-full w-full rounded-md md:hidden"
+            />
             <p className="text-[#3B3B3B] hidden md:block">
               My name is Richard and I have a passion for technology and
               problem-solving. I believe that the frontend is where the magic
