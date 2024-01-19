@@ -24,7 +24,9 @@ export const About = () => {
             id="about"
             className=" about h-full w-full md:px-20 gap-6 flex flex-col justify-center items-center md:items-start text-black"
           >
-            <h1 className="font-bold text-[40px] text-[#181885]">About me</h1>
+            <h1 className="font-bold mt-20 md:mt-0 text-[40px] text-[#181885]">
+              About me
+            </h1>
             <img
               src="/richard.jpeg"
               alt=""
