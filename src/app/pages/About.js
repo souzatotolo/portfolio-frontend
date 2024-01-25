@@ -52,10 +52,6 @@ export const About = () => {
             </p>
             <p className="font-bold text-[30px] text-[#181885]">Skills</p>
             <div className="grid grid-cols-2 gap-4 auto-rows-fr">
-              <div className="flex flex-row items-center ">
-                <GoTriangleRight size={28} color="#9b77ff" />
-                <p>Javascript</p>
-              </div>
               <div className="flex flex-row items-center">
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>React</p>
@@ -66,11 +62,15 @@ export const About = () => {
               </div>
               <div className="flex flex-row items-center">
                 <GoTriangleRight size={28} color="#9b77ff" />
-                <p>NodeJs</p>
+                <p>TailwindCSS</p>
+              </div>
+              <div className="flex flex-row items-center ">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>RESTapi</p>
               </div>
               <div className="flex flex-row items-center">
                 <GoTriangleRight size={28} color="#9b77ff" />
-                <p>Express</p>
+                <p>NodeJS</p>
               </div>
               <div className="flex flex-row items-center">
                 <GoTriangleRight size={28} color="#9b77ff" />

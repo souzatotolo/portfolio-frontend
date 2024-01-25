@@ -67,7 +67,7 @@ export const Introduction = () => {
             Richard Totolo
           </motion.p>
           <p className="text-3xl md:text-4xl font-extralight text-zinc-50 ">
-            Front-end developer
+            Full Stack developer
           </p>
           <div className="flex mt-5 text-zinc-50 flex-row font-light text-1xl gap-5">
             <a href="mailto:totolo.richard@gmail.com">
