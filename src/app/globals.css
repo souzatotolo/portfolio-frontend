@@ -4,6 +4,23 @@
 
 html{
   scroll-behavior: smooth;
+  scrollbar-color: ;
+}
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Estilo do polegar (a parte que você move) */
+::-webkit-scrollbar-thumb {
+  background-color: #06152a; /* Cor do polegar */
+  border-radius: 6px; /* Borda arredondada do polegar */
+}
+
+/* Estilo da pista (o fundo da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background-color: #0A2144; /* Cor da pista */
 }
 
 .pulsate-bck {
