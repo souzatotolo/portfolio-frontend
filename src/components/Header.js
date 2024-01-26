@@ -18,13 +18,19 @@ export const Header = () => {
         Richard Totolo
       </motion.h1>
       <nav className="md:flex gap-10 hidden px-10 items-center flex-wrap">
-        <Link href="#about" className="text-zinc-50  z-30">
+        <Link href="#about" className="text-zinc-50 hover:text-[#9b77ff]  z-30">
           About
         </Link>
-        <Link href="#projects" className="text-zinc-50  z-30">
+        <Link
+          href="#projects"
+          className="text-zinc-50 hover:text-[#9b77ff] z-30"
+        >
           Projects
         </Link>
-        <Link href="#getInTouch" className="text-zinc-50 z-30">
+        <Link
+          href="#getInTouch"
+          className="text-zinc-50 hover:text-[#9b77ff] z-30"
+        >
           Contact
         </Link>
 

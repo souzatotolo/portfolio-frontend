@@ -11,11 +11,13 @@ export const Projects = () => {
       id="projects"
       className="h-full px-5 flex items-center justify-start flex-col md:gap-20"
     >
-      <h1 className="font-bold text-[40px] text-[#9B77FF] mt-20">
-        My Projects
-      </h1>
+      <h1 className="font-bold text-[45px] text-[#9B77FF] mt-20">Projects</h1>
       <div className="md:w-[1170px] w-full mb-28 md:mb-0 mt-10 md:mt-0 md:my-0 h-[337px] flex md:flex-row flex-col gap-5">
-        <img src="/vanhike.png" className="md:w-[670px] h-[337px]" alt="" />
+        <img
+          src="/vanhike.png"
+          className="md:w-[670px] h-[337px] rounded-lg shadow-md"
+          alt=""
+        />
         <div className="flex md:w-[470px] h-[232px] flex-col gap-3">
           <p className="font-bold text-[30px] text-[#9B77FF]">VanHike</p>
           <p className="font-bold font-normal text-[#9B77FF]">
@@ -31,21 +33,23 @@ export const Projects = () => {
           <p className="font-bold font-normal text-[#9B77FF]">
             React | NodeJS | Express | MongoDB
           </p>
-          <div className="flex flex-row gap-3">
-            <a href="https://github.com/souzatotolo/VanHike">
+          <div className="flex flex-row gap-3 ">
+            <a
+              href="https://github.com/souzatotolo/VanHike"
+              className="text-zinc-50 hover:text-[#9B77FF]"
+            >
               {' '}
               <FiGithub
                 size={30}
-                color="#fff"
-                className="hover:text-[#9B77FF]"
+                className="text-zinc-50 hover:text-[#9B77FF]"
               />
             </a>
+
             <a href="https://project-group5.vercel.app/">
               {' '}
               <HiOutlineExternalLink
                 size={30}
-                color="#fff"
-                className="hover:text-[#9B77FF]"
+                className="text-zinc-50 hover:text-[#9B77FF]"
               />
             </a>
           </div>
@@ -56,7 +60,7 @@ export const Projects = () => {
       <div className="md:w-[1170px] h-[337px] my-40 md:my-0  flex flex-col md:flex-row gap-6">
         <img
           src="/magnolia.png"
-          className=" md:hidden md:w-[670px] w-screen h-[337px]"
+          className=" md:hidden md:w-[670px] w-screen h-[337px] rounded-lg shadow-md"
           alt=""
         />
         <div className="flex md:w-[470px] h-[232px] flex-col gap-3">
@@ -82,16 +86,14 @@ export const Projects = () => {
               {' '}
               <FiGithub
                 size={30}
-                color="#fff"
-                className="hover:text-[#9B77FF]"
+                className="text-zinc-50 hover:text-[#9B77FF]"
               />
             </a>
             <a href="https://www.magnoliajanitorialservices.com/">
               {' '}
               <HiOutlineExternalLink
                 size={30}
-                color="#fff"
-                className="hover:text-[#9B77FF]"
+                className="text-zinc-50 hover:text-[#9B77FF]"
               />
             </a>
           </div>
@@ -99,7 +101,7 @@ export const Projects = () => {
         </div>
         <img
           src="/magnolia.png"
-          className=" hidden md:block md:w-[670px] w-screen h-[337px]"
+          className=" hidden md:block md:w-[670px] w-screen h-[337px] rounded-lg shadow-md"
           alt=""
         />
       </div>
@@ -107,12 +109,12 @@ export const Projects = () => {
       <div className="md:w-[1170px] w-full h-[337px] my-40 md:my-0  flex md:flex-row flex-col gap-5">
         <img
           src="/somnium.png"
-          className="md:w-[670px] w-screen h-[337px]"
+          className="md:w-[670px] w-screen h-[337px] rounded-lg shadow-md"
           alt=""
         />
         <div className="flex md:w-[470px] h-[232px] flex-col gap-3">
           <p className="font-bold text-[30px] text-[#9B77FF]">
-            SOMNIUM - ERP system{' '}
+            SOMNIUM - ERP System{' '}
           </p>
           <p className="font-bold font-normal text-[#9B77FF]">
             2023 - Frontend & Backend
@@ -124,7 +126,7 @@ export const Projects = () => {
             overview, and multiple tables for detailed financial tracking and
             customer management.
           </p>
-          <p className="font-bold font-normal text-[#9B77FF]">
+          <p className="font-bold font-normal text-[#9B77FF] ">
             React | NodeJS | TailwindCSS | MongoDB
           </p>
           <div className="flex flex-row gap-3">
@@ -132,16 +134,14 @@ export const Projects = () => {
               {' '}
               <FiGithub
                 size={30}
-                color="#fff"
-                className="hover:text-[#9B77FF]"
+                className="text-zinc-50 hover:text-[#9B77FF]"
               />
             </a>
             <a href="https://somnium-app.vercel.app/">
               {' '}
               <HiOutlineExternalLink
                 size={30}
-                color="#fff"
-                className="hover:text-[#9B77FF]"
+                className="text-zinc-50 hover:text-[#9B77FF]"
               />
             </a>
           </div>

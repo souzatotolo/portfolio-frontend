@@ -64,6 +64,10 @@ export const About = () => {
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>TailwindCSS</p>
               </div>
+              <div className="hidden md:flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>Redux</p>
+              </div>
               <div className="flex flex-row items-center ">
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>RESTapi</p>
@@ -71,6 +75,10 @@ export const About = () => {
               <div className="flex flex-row items-center">
                 <GoTriangleRight size={28} color="#9b77ff" />
                 <p>NodeJS</p>
+              </div>
+              <div className="hidden md:flex flex-row items-center">
+                <GoTriangleRight size={28} color="#9b77ff" />
+                <p>Express</p>
               </div>
               <div className="flex flex-row items-center">
                 <GoTriangleRight size={28} color="#9b77ff" />

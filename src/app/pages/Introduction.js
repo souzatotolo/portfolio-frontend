@@ -87,7 +87,7 @@ export const Introduction = () => {
       </div>
       <motion.a
         className="text-zinc-50 mt-20  z-20 flex"
-        href=""
+        href="#about"
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 0.8 }}
       >
