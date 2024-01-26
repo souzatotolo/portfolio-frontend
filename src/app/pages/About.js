@@ -86,7 +86,9 @@ export const About = () => {
               </div>
               <Link href="/resume.pdf" target="blank">
                 <button className=" hidden md:block md:mt-1 md:ml-0 ml-5 md:w-44 w-[280px] h-8 text-sm rounded-full bg-[#9b77ff] text-zinc-50 hover:bg-[#fff] hover:text-[#9B77FF] border-2 border-[#9B77FF]">
-                  <a href="/resume.pdf" download></a>Download Resume
+                  <a href="/resume.pdf" download>
+                    Download Resume
+                  </a>
                 </button>
               </Link>
             </div>
